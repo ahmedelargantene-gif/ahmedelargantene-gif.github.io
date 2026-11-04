@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ahmed Mohamed Ragab | Software Developer</title>
+<meta name="description" content="Portfolio of Ahmed Mohamed Ragab: business systems, web platforms, test automation and embedded robotics.">
+<link rel="icon" type="image/svg+xml" href="assets/icon.svg">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#060a14">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ahmed Mohamed Ragab">
+<meta property="og:title" content="Ahmed Mohamed Ragab | Software Developer">
+<meta property="og:description" content="Business systems, web platforms, test automation and robotics. View my projects and get in touch.">
+<meta property="og:url" content="https://ahmedelargantene-gif.github.io/">
+<meta property="og:image" content="https://ahmedelargantene-gif.github.io/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ahmed Mohamed Ragab | Software Developer">
+<meta name="twitter:image" content="https://ahmedelargantene-gif.github.io/assets/og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#060a14;--sf:rgba(14,20,40,.72);--ink:#eef2fb;--mute:#9ba7c2;--line:rgba(140,158,220,.22);--ac:#8794ff;--acbg:rgba(135,148,255,.15);--tint:rgba(7,11,25,.62);--cy:#4cc9f0}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:radial-gradient(900px 600px at 82% -5%,rgba(94,108,255,.3),transparent 60%),radial-gradient(700px 500px at 0% 100%,rgba(76,201,240,.16),transparent 60%),var(--bg);background-attachment:fixed;color:var(--ink);font:400 16px/1.65 'DM Sans',system-ui,sans-serif}
+a{color:inherit}h1,h2,h3{font-family:Sora,sans-serif;margin:0;line-height:1.15}
+.w{max-width:1120px;margin:0 auto;padding:0 22px}
+header.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header.top .w{display:flex;align-items:center;justify-content:space-between;gap:16px;height:58px}
+.logo{font-family:Sora;font-weight:800;text-decoration:none}
+nav{display:flex;gap:20px;font-size:14px;font-weight:500;overflow-x:auto}
+nav a{text-decoration:none;color:var(--mute);white-space:nowrap}nav a:hover{color:var(--ink)}
+.hero{display:grid;grid-template-columns:1fr 280px;gap:56px;align-items:center;padding:64px 0 40px}
+h1{font-size:clamp(34px,5.2vw,58px);font-weight:800;letter-spacing:-.025em;max-width:none}
+.lead{font-size:18px;color:var(--mute);max-width:54ch;margin:20px 0 26px}
+.btns{display:flex;gap:10px;flex-wrap:wrap}
+.btn{padding:11px 20px;border-radius:10px;border:1.5px solid var(--line);background:var(--sf);text-decoration:none;font-weight:700;font-size:14.5px}
+.btn.p{background:var(--ac);border-color:var(--ac);color:#fff}
+.photo{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:20px;border:1px solid var(--line)}
+.facts{display:flex;gap:28px;flex-wrap:wrap;padding:22px 0;margin-top:8px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);color:var(--mute);font-size:14.5px}
+.facts b{color:var(--ink);font-family:Sora}
+section{padding:72px 0 0}
+.sh{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px 40px;margin-bottom:12px}
+h2{font-size:clamp(26px,3.6vw,38px);font-weight:800;letter-spacing:-.02em}
+.sh p{margin:0;color:var(--mute);max-width:52ch}
+.proj{display:grid;grid-template-columns:5fr 7fr;gap:44px;padding:44px 0;border-top:1px solid var(--line);align-items:start}
+.proj:first-of-type{margin-top:22px}
+.kind{font-size:13px;font-weight:700;color:var(--ac);margin-bottom:6px}
+.proj h3{font-size:28px;font-weight:800;letter-spacing:-.015em}
+.proj p{margin:12px 0;color:var(--mute)}
+.proj ul{margin:12px 0 0;padding-left:18px}.proj li{margin:5px 0}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.tags span{font-size:12.5px;font-weight:500;padding:3px 10px;border-radius:999px;background:var(--acbg);color:var(--ac)}
+.links{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.links .btn{padding:9px 16px;font-size:14px}
+.priv{margin-top:18px;font-size:13.5px;color:var(--mute)}
+.win{border:1px solid var(--line);border-radius:14px;background:var(--sf);overflow:hidden;box-shadow:0 18px 40px -24px rgba(14,23,38,.35)}
+.bar{display:flex;align-items:center;gap:6px;padding:10px 14px;border-bottom:1px solid var(--line);font-size:12.5px;color:var(--mute)}
+.bar i{width:9px;height:9px;border-radius:50%;background:var(--line)}
+.bar em{font-style:normal;margin-left:10px;padding:2px 12px;background:var(--tint);border-radius:6px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.shot{aspect-ratio:16/10;background:var(--tint);display:flex}
+.shot img,.shot video{width:100%;height:100%;object-fit:contain;cursor:zoom-in;background:#000}
+.shot img{background:none}
+.th{display:flex;gap:8px;padding:10px;overflow-x:auto;border-top:1px solid var(--line)}
+.th button{flex:none;border:2px solid transparent;border-radius:8px;padding:0;background:var(--tint);cursor:pointer;height:54px;overflow:hidden}
+.th button.on{border-color:var(--ac)}.th img{height:100%;width:auto;display:block}
+.soon{display:none;margin:auto;color:var(--mute);font-size:14px;padding:20px;text-align:center}
+.panel{padding:26px;display:grid;gap:10px}
+.panel div{display:flex;justify-content:space-between;gap:10px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--tint);font-weight:500}
+.panel b{color:#3ddc97;white-space:nowrap}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px;margin-top:22px}
+.cols h3{font-size:17px;margin-bottom:8px}.cols p,.cols li{color:var(--mute);margin:4px 0}.cols ul{padding-left:18px;margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px}.chips span{padding:4px 11px;border:1px solid var(--line);border-radius:8px;background:var(--sf);font-size:14px}
+footer{margin-top:80px;padding:56px 0 70px;border-top:1px solid var(--line)}
+footer a{font-weight:700;display:inline-block;margin:4px 18px 4px 0}
+#lb{position:fixed;inset:0;background:rgba(5,9,18,.93);display:none;align-items:center;justify-content:center;padding:22px;z-index:20;cursor:zoom-out}
+#lb.on{display:flex}#lb img{max-width:100%;max-height:100%;border-radius:8px}
+a:focus-visible,button:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
+@media(max-width:860px){.hero{grid-template-columns:1fr;gap:28px;padding-top:36px}.photo{max-width:220px;order:-1}.proj{grid-template-columns:1fr;gap:22px}}
+#bg{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+main,footer{position:relative;z-index:1}
+.win{backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.role{font:600 clamp(18px,2.4vw,26px)/1.3 Sora,sans-serif;color:var(--ac);margin:10px 0 0}
+.btn.wa,.fab{background:#25d366;border-color:#25d366;color:#06210f}
+.btn.p{box-shadow:0 8px 24px -8px var(--ac)}
+.fab{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:8;display:flex;align-items:center;gap:8px;padding:12px 18px;border-radius:999px;font-weight:700;text-decoration:none;box-shadow:0 10px 30px -8px rgba(37,211,102,.6)}
+.cw{padding:26px;display:grid;gap:14px;max-width:680px}
+.lang{display:flex;gap:8px}
+.lang button,.opts button{font:500 14.5px 'DM Sans',sans-serif;color:var(--ink);background:var(--tint);border:1.5px solid var(--line);border-radius:10px;padding:9px 14px;cursor:pointer}
+.lang button.on,.opts button.on{border-color:var(--ac);background:var(--acbg)}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.cb input,.cb textarea{font:400 15px 'DM Sans',sans-serif;color:var(--ink);background:var(--tint);border:1.5px solid var(--line);border-radius:10px;padding:11px 14px;width:100%;resize:vertical}
+.two{display:flex;gap:10px;flex-wrap:wrap}
+.cb .btn{text-align:center;justify-self:start}
+.chat{position:fixed;right:18px;bottom:calc(84px + env(safe-area-inset-bottom,0px));width:min(390px,calc(100vw - 36px));max-height:calc(100vh - 130px);overflow:auto;z-index:9;background:rgba(11,16,32,.92);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:1px solid var(--line);border-radius:18px;box-shadow:0 30px 70px -20px rgba(0,0,0,.75);opacity:0;transform:translateY(16px) scale(.97);transform-origin:bottom right;transition:opacity .25s,transform .25s}
+.chat.on{opacity:1;transform:none}
+.ch{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;background:#0f7a43;color:#fff;border-radius:18px 18px 0 0;font-family:Sora,sans-serif;font-size:15px}
+.ch button{background:none;border:0;color:#fff;font-size:26px;line-height:1;cursor:pointer}
+.cb{padding:16px;display:grid;gap:12px}
+.bub{margin:0;background:var(--tint);border:1px solid var(--line);padding:10px 14px;border-radius:4px 14px 14px 14px;font-size:15px}
+.lh{font-size:12.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin-top:16px}
+.fab::after{content:"";position:absolute;inset:0;border-radius:999px;border:2px solid #25d366;animation:ring 2.4s ease-out infinite;pointer-events:none}
+@keyframes ring{from{opacity:.8;transform:scale(1)}to{opacity:0;transform:scale(1.35)}}
+@keyframes up{from{opacity:0;transform:translateY(22px)}}
+@keyframes fl{50%{transform:translateY(-10px)}}
+.hero h1,.role,.lead,.btns{animation:up .8s cubic-bezier(.2,.7,.2,1) both}
+.role{animation-delay:.12s}.lead{animation-delay:.24s}.btns{animation-delay:.36s}
+.photo{animation:up .9s .2s both,fl 6s 1.2s ease-in-out infinite}
+.rv{opacity:0;transform:translateY(30px);transition:opacity .75s ease,transform .75s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+.proj .win{transition:transform .35s,box-shadow .35s,border-color .35s}
+.proj .win:hover{transform:translateY(-6px);border-color:var(--ac);box-shadow:0 34px 60px -28px rgba(135,148,255,.6)}
+.btn{transition:transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-2px)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+.sk{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:26px 22px;margin-top:8px}.sk h3{font-size:16px;margin-bottom:10px}
+</style>
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<header class="top"><div class="w"><a class="logo" translate="no" href="#top">Ahmed Mohamed Ragab</a>
+<nav><a href="#systems">Business systems</a><a href="#platforms">Stores and platforms</a><a href="#automation">Automation</a><a href="#iot">Robotics and IoT</a><a href="#about">About</a><a href="https://wa.me/201207178123" data-open>Contact</a></nav></div></header>
+
+<main class="w" id="top">
+<div class="hero">
+<div>
+<h1 translate="no">Ahmed Mohamed Ragab</h1><p class="role">Software developer building complete products.</p>
+<p class="lead">Business systems, online stores, test automation and embedded robots, from the database to the interface to deployment. Third-year IT student at Borg El Arab Technological University, Software track.</p>
+<div class="btns"><a class="btn p" href="#systems">View projects</a><a class="btn" href="https://github.com/ahmedelargantene-gif">GitHub</a><a class="btn wa" href="https://wa.me/201207178123?text=Hello%20Ahmed" data-open>WhatsApp</a><a class="btn" href="mailto:ahmoed912@gmail.com">Email me</a></div>
+</div>
+<img class="photo" src="assets/img/ahmed.jpg" alt="Portrait of Ahmed Mohamed Ragab">
+</div>
+<div class="facts"><span><b>7+</b> business types in one ERP</span><span><b>80+</b> attendees in my IT and robotics courses</span><span><b>3</b> robots and AI projects</span><span><b>9/9</b> automated tests passing</span></div>
+
+<section id="systems"><div class="sh"><h2>Business systems</h2><p>ERP, point of sale and management systems used to run real shops and companies. Systems with real customer data are shown as screenshots with sensitive details blurred.</p></div><div id="g-systems"></div></section>
+<section id="platforms"><div class="sh"><h2>Stores and platforms</h2><p>Public web products with accounts, content and online ordering.</p></div><div id="g-platforms"></div></section>
+<section id="automation"><div class="sh"><h2>Automation</h2><p>Automated tests and a delivery pipeline.</p></div><div id="g-automation"></div></section>
+<section id="iot"><div class="sh"><h2>Robotics and IoT</h2><p>Embedded projects on ESP32 and Raspberry Pi, programmed mainly in C.</p></div><div id="g-iot"></div>
+<div class="cols"><div><h3>Smart helmet</h3><p>Wearable safety system. EEG and vital-sign sensors feed an ESP32, which processes the readings and triggers an automatic alarm when they indicate a risk to the wearer.</p></div><div><h3>Student concentration analysis</h3><p>Reads EEG signals from students and analyzes them to estimate attention levels, giving teachers objective data on focus during lessons.</p></div><div><h3>Smart cane</h3><p>An assistive cane for visually impaired users. Sensors detect obstacles in the path and alert the user in time to avoid them.</p></div></div></section>
+
+<section id="about"><div class="sh"><h2>About</h2></div>
+<div class="cols">
+<div><h3>Education</h3><p>Borg El Arab Technological University<br>Information Technology, Software track<br>Third year, expected graduation 2028</p><h3 style="margin-top:18px">Certification</h3><p>Meta Certified Digital Marketing Associate, December 2024</p></div>
+<div><h3>Experience</h3><p><b>IT and Robotics Trainer</b>, Egyptian Inventors Syndicate<br>Delivered IT and robotics courses attended by 80+ participants.</p><p><b>IT Technician</b>, Alexandria Technology Systems Company<br>Dec 2025 to Mar 2026</p><p>Installed and maintained CCTV cameras and DVR systems, installed network points and connected devices to switches. Received a certificate of appreciation.</p></div>
+</div><div class="sh" style="margin-top:50px"><h2 style="font-size:28px">Skills</h2></div><div class="sk" translate="no"><div><h3>Languages</h3><div class="chips"><span>Python</span><span>Java</span><span>C</span><span>C++</span><span>JavaScript</span><span>TypeScript</span></div></div><div><h3>Web</h3><div class="chips"><span>HTML and CSS</span><span>React</span><span>Next.js</span><span>Tailwind CSS</span><span>Node.js</span><span>Express</span><span>REST APIs</span><span>Responsive and RTL UI</span><span>UI/UX design</span><span>Figma</span></div></div><div><h3>Data and security</h3><div class="chips"><span>SQL (MySQL, PostgreSQL)</span><span>Supabase</span><span>Firebase</span><span>JWT and OAuth</span><span>Role-based access</span><span>OWASP basics</span></div></div><div><h3>DevOps and cloud</h3><div class="chips"><span>Git and GitHub</span><span>GitHub Actions</span><span>Docker</span><span>Linux</span><span>Vercel</span><span>Netlify</span></div></div><div><h3>Testing and automation</h3><div class="chips"><span>Playwright</span><span>Selenium</span><span>pytest</span><span>Postman</span><span>UiPath</span><span>Python scripts</span><span>Web scraping</span></div></div><div><h3>Embedded, mobile, games and AI</h3><div class="chips"><span>ESP32</span><span>Raspberry Pi</span><span>Embedded C</span><span>MediaPipe</span><span>Flutter</span><span>React Native</span><span>Game development (Python, C, C++)</span><span>AI tools and prompting</span></div></div><div><h3>Engineering practices</h3><div class="chips"><span>Clean code</span><span>Design patterns</span><span>System design</span><span>Unit and integration testing</span></div></div></div></section>
+</main>
+
+<footer><div class="w"><h2>Ahmed Mohamed Ragab</h2><p style="color:var(--mute);margin:10px 0 18px">Open to training and junior roles in software development.</p>
+<a href="mailto:ahmoed912@gmail.com">ahmoed912@gmail.com</a><a href="https://wa.me/201207178123">WhatsApp 01207178123</a><a href="https://github.com/ahmedelargantene-gif">GitHub</a><span style="color:var(--mute)">Alexandria, Egypt</span></div></footer>
+<a class="fab" id="fab" data-open href="https://wa.me/201207178123?text=Hello%20Ahmed" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.2 14.8l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 0 1 12 4zm-3 4c-.3 0-.7.2-.9.6-.3.5-.6 1.3 0 2.4.6 1.2 2 3 4.4 3.9 1.4.5 2.2.4 2.7.2.5-.2 1-.9 1.1-1.4 0-.3 0-.5-.2-.6l-1.6-.8c-.2-.1-.4 0-.6.2l-.6.7c-.1.1-.3.2-.5.1-.6-.3-1.6-.8-2.4-2-.1-.2-.1-.3 0-.5l.4-.5c.1-.1.1-.3 0-.5L9.4 8.3C9.3 8.1 9.2 8 9 8z"/></svg>WhatsApp</a>
+<div id="chat" class="chat" role="dialog" aria-label="Contact Ahmed on WhatsApp" hidden>
+<div class="ch"><b>Contact Ahmed Mohamed Ragab</b><button type="button" id="cx" aria-label="Close">&times;</button></div>
+<div class="cb"><p class="bub" id="bub">Hello, I am Ahmed. How may I help you?</p>
+<div class="lang"><button type="button" data-l="en" class="on">English</button><button type="button" data-l="ar">العربية</button></div>
+<div class="opts" id="opts"></div><input id="nm" placeholder="Your name (optional)" autocomplete="name">
+<textarea id="pv" rows="5" aria-label="Message preview"></textarea>
+<div class="two"><a id="send" class="btn wa" href="https://wa.me/201207178123">Send on WhatsApp</a><a id="direct" class="btn" href="https://wa.me/201207178123">Chat directly</a></div></div></div>
+<div id="lb" role="dialog" aria-label="Enlarged image"><img alt=""></div>
+
+<script>
+var I='assets/img/',V='assets/videos/';
+var P=[
+{g:'systems',t:'Axis ERP',k:'Multi-tenant SaaS',d:'One platform that configures itself for each type of business. Every business gets its own isolated workspace and a 5-day free trial.',
+ l:['Point of sale with table map and takeaway','Inventory, customers, suppliers and purchases','Treasury and business reports','Appointment booking for salons and offices','Owner panel to manage subscriptions'],
+ tg:['7+ business types','POS','Inventory','Reports'],live:'https://axis-erp-jade.vercel.app/',ll:'Live preview',
+ im:[['axis-home','Landing page'],['axis-types','Supported business types'],['axis-pos','Point of sale with tables'],['axis-menu','Product list']]},
+{g:'systems',t:'Scrap-trading ERP',k:'Used daily with real data',d:'Runs the daily operation of a scrap-trading company, from buying at the yard to selling to factories and tracking every pound of profit.',
+ l:['Purchases from dealers and sales to factories with automatic profit','Trip tracking from pickup to delivery','Treasury, expenses, payroll and investor accounts','Monthly financial reports and account statements','Manager and employee permissions'],
+ tg:['Firebase','Real-time data','Role-based access'],priv:1,
+ im:[['khorda-dash','Dashboard'],['khorda-purchase','Purchase and sale entry'],['khorda-purchases','Purchase log (blurred)'],['khorda-tracking','Trip tracking (blurred)'],['khorda-monthly','Monthly reports (blurred)'],['khorda-clients','Client management']]},
+{g:'systems',t:'B-Mart',k:'Multi-branch retail system',d:'Management system for a clothing store with several branches, built around fast checkout and clear accountability for every shift.',
+ l:['Barcode-scanner point of sale with returns and discounts','Inventory by size and colour','Staff shifts and attendance records','Expense, payroll and profit reports','Side-by-side branch comparison'],
+ tg:['Barcode POS','Multi-branch','Attendance'],priv:1,
+ im:[['bmart-pos','Barcode point of sale'],['bmart-charts','Sales and purchases'],['bmart-dash','Dashboard (blurred)'],['bmart-reports','Reports (blurred)'],['bmart-attendance','Attendance (blurred)'],['bmart-branches','Branch comparison (blurred)']]},
+{g:'systems',t:'Restaurant management system',k:'Restaurants',d:'Handles orders, menu and daily numbers for a restaurant.',
+ l:['Ordering by table or takeaway','Menu and sauce management','Invoices, expenses and suppliers','Daily dashboard and user accounts with subscription dates'],tg:['POS','Menu','Accounts'],priv:1,
+ im:[['potato-orders','Table ordering'],['potato-menu','Menu management']]},
+{g:'platforms',t:'Lamma',k:'Multi-vendor marketplace',d:'A marketplace where every seller has a store and buyers check out once for items from different sellers. Mobile first, in Arabic and English.',
+ l:['Unified cart across sellers, cash on delivery','Coupon codes and promotions','Shipping rates per governorate','Wishlist, search and categories','Seller admin panel'],
+ tg:['Next.js','Supabase','Vercel'],live:'https://lamma-store.vercel.app/',ll:'Live preview',
+ im:[['lamma-home','Home'],['lamma-products','Products'],['lamma-shipping','Shipping rates'],['lamma-coupons','Coupons']]},
+{g:'platforms',t:'Mal3aby',k:'Football community platform',d:'A social platform for Egyptian football: players, coaches, photographers and pitches in one place.',
+ l:['Social feed and stories','Leagues and tournaments with team registration','Direct chat with voice notes','Notifications and admin dashboard'],
+ tg:['Social','Real-time chat','Admin panel'],live:'https://mal3aby-eight.vercel.app/',ll:'Live preview',
+ im:[['mal-feed','Home feed'],['mal-leagues','Leagues'],['mal-admin','Admin dashboard']]},
+{g:'automation',t:'Bank QA Automation',k:'Test automation and CI/CD',d:'Automated tests for a demo banking application, run by a pipeline that publishes a public report after every push.',
+ l:['Browser tests with Playwright and the Page Object Model','Data-driven API tests with pytest and requests','GitHub Actions pipeline with a live HTML report'],
+ tg:['Python','Playwright','pytest','GitHub Actions'],live:'https://ahmedelargantene-gif.github.io/bank-qa-automation/',ll:'Live test report',
+ repo:'https://github.com/ahmedelargantene-gif/bank-qa-automation',panel:[['UI tests, Playwright','2 passed'],['API tests, pytest','7 passed'],['Pipeline, every push','Passing']]},
+{g:'iot',t:'Firefighting robot',k:'Robotics and embedded systems',d:'Fires spread within minutes, and sending a person to deal with one is dangerous. This robot finds a fire and puts it out on its own, so nobody has to be put at risk.',lh:'How it works',
+ l:['A flame sensor detects the fire','The robot drives toward the fire automatically','A water pump sprays water onto the flames','Firmware written in embedded C for a fast, dependable response'],tg:['Flame sensor','Water pump','Embedded C','Autonomous'],vid:'firefighting-robot.mp4'},
+{g:'iot',t:'Beach-cleaning robot',k:'Robotics and embedded systems',d:'Waste left on beaches harms the sea and the people who use it. This robot cleans a defined area of sand by itself, with no manual effort.',lh:'How it works',
+ l:['The operator sets the cleaning area through a website','The robot covers the area in a zigzag pattern','Front scoops dig into the sand and lift the waste','Collected waste is dropped into an onboard box'],tg:['Website control','Zigzag coverage','Robotics','Embedded'],vid:'beach-cleaning-robot.mp4'},
+{g:'iot',t:'Sign language to speech',k:'AI and Raspberry Pi',d:'People who are deaf or mute are often not understood by those who do not know sign language. This system recognizes their gestures and turns them into words anyone can read or hear.',lh:'How it works',
+ l:['MediaPipe tracks the hand movements of the signer','The system recognizes each gesture and translates it into words','The words are shown on a screen','They are also spoken aloud through a speaker','Runs on a Raspberry Pi'],tg:['MediaPipe','Raspberry Pi','Computer vision'],vid:'sign-language.mp4'}
+];
+function esc(s){return s}
+P.forEach(function(p){
+ var h='<article class="proj"><div><div class="kind">'+p.k+'</div><h3>'+p.t+'</h3><p>'+p.d+'</p>';
+ if(p.l.length)h+=(p.lh?'<div class="lh">'+p.lh+'</div>':'')+'<ul>'+p.l.map(function(x){return'<li>'+x+'</li>'}).join('')+'</ul>';
+ h+='<div class="tags" translate="no">'+p.tg.map(function(x){return'<span>'+x+'</span>'}).join('')+'</div>';
+ if(p.live||p.repo){h+='<div class="links">';if(p.live)h+='<a class="btn p" href="'+p.live+'">'+p.ll+'</a>';if(p.repo)h+='<a class="btn" href="'+p.repo+'">Source code</a>';h+='</div>'}
+ if(p.priv)h+='<div class="priv">'+(p.note||'Private system with real data. Screenshots only.')+'</div>';
+ h+='</div><div>';
+ var bar=p.live?p.live.replace('https://','').replace(/\/$/,''):(p.vid?'Demo video':'Screenshots');
+ h+='<div class="win"><div class="bar"><i></i><i></i><i></i><em>'+bar+'</em></div>';
+ if(p.im)h+='<div class="shot"><img src="'+I+p.im[0][0]+'.jpg" alt="'+p.im[0][1]+'"></div>'+(p.im.length>1?'<div class="th">'+p.im.map(function(x,i){return'<button type="button" class="'+(i?'':'on')+'" data-s="'+I+x[0]+'.jpg" data-a="'+x[1]+'"><img src="'+I+x[0]+'.jpg" alt="'+x[1]+'"></button>'}).join('')+'</div>':'');
+ else if(p.vid)h+='<div class="shot"><video controls preload="metadata" src="'+V+p.vid+'"></video><div class="soon">Demo video coming soon</div></div>';
+ else if(p.panel)h+='<div class="panel">'+p.panel.map(function(x){return'<div><span>'+x[0]+'</span><b>'+x[1]+'</b></div>'}).join('')+'</div>';
+ else h+='<div class="shot"><div class="soon" style="display:block">No public preview</div></div>';
+ document.getElementById('g-'+p.g).insertAdjacentHTML('beforeend',h+'</div></div></article>');
+});
+document.querySelectorAll('.shot video').forEach(function(v){v.addEventListener('error',function(){v.style.display='none';v.nextElementSibling.style.display='block'})});
+var lb=document.getElementById('lb'),li=lb.querySelector('img');
+document.addEventListener('click',function(e){
+ var b=e.target.closest('.th button');
+ if(b){var m=b.closest('.win').querySelector('.shot img');m.src=b.dataset.s;m.alt=b.dataset.a;b.parentNode.querySelectorAll('button').forEach(function(x){x.classList.remove('on')});b.classList.add('on');return}
+ if(e.target.matches('.shot img')){li.src=e.target.src;li.alt=e.target.alt;lb.classList.add('on');return}
+ if(lb.classList.contains('on'))lb.classList.remove('on');
+});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('on')});
+
+(function(){
+var T={en:[['Job or training opportunity','Hello Ahmed, I saw your portfolio and would like to talk about a job or training opportunity.'],['Software system or website','Hello Ahmed, I saw your portfolio and I am interested in a software system or website. Can we talk about it?'],['Robotics or IoT project','Hello Ahmed, I have a robotics or IoT project and would like your input.'],['Training courses inquiry','Hello Ahmed, I would like to know more about your IT and robotics courses.'],['Collaboration','Hello Ahmed, I would like to work with you on a project.']],
+ar:[['فرصة عمل أو تدريب','السلام عليكم أحمد، اطلعت على معرض أعمالك وأود التحدث معك بخصوص فرصة عمل أو تدريب.'],['تطوير نظام أو موقع','السلام عليكم أحمد، اطلعت على معرض أعمالك وأرغب في تطوير نظام أو موقع إلكتروني. هل يمكننا التحدث بخصوصه؟'],['مشروع روبوتات أو IoT','السلام عليكم أحمد، لدي مشروع في الروبوتات أو إنترنت الأشياء وأود معرفة رأيك.'],['الاستفسار عن الدورات','السلام عليكم أحمد، أود معرفة المزيد عن دورات تكنولوجيا المعلومات والروبوتات التي تقدمها.'],['تعاون','السلام عليكم أحمد، أود التعاون معك في مشروع.']]};
+var L='en',K=0,o=document.getElementById('opts'),nm=document.getElementById('nm'),pv=document.getElementById('pv'),sd=document.getElementById('send'),bub=document.getElementById('bub'),dr=document.getElementById('direct'),chat=document.getElementById('chat');
+function link(){sd.href='https://wa.me/201207178123?text='+encodeURIComponent(pv.value)}
+function msg(){var n=nm.value.trim();pv.value=T[L][K][1]+(n?(L==='ar'?' اسمي ':' My name is ')+n+'.':'');pv.dir=L==='ar'?'rtl':'ltr';link()}
+function opts(){o.innerHTML='';T[L].forEach(function(t,i){var b=document.createElement('button');b.type='button';b.textContent=t[0];if(i===K)b.className='on';b.onclick=function(){K=i;opts();msg()};o.appendChild(b)})}
+document.querySelectorAll('.lang button').forEach(function(b){b.onclick=function(){L=b.dataset.l;document.querySelectorAll('.lang button').forEach(function(x){x.classList.toggle('on',x===b)});nm.placeholder=L==='ar'?'الاسم (اختياري)':'Your name (optional)';bub.textContent=L==='ar'?'مرحباً، أنا أحمد. كيف يمكنني مساعدتك؟':'Hello, I am Ahmed. How may I help you?';bub.dir=L==='ar'?'rtl':'ltr';sd.textContent=L==='ar'?'إرسال عبر واتساب':'Send on WhatsApp';dr.textContent=L==='ar'?'تواصل مباشر':'Chat directly';opts();msg()}});
+nm.addEventListener('input',msg);pv.addEventListener('input',link);opts();msg();
+function openC(){chat.hidden=false;requestAnimationFrame(function(){chat.classList.add('on')})}
+function closeC(){chat.classList.remove('on');setTimeout(function(){if(!chat.classList.contains('on'))chat.hidden=true},260)}
+document.querySelectorAll('[data-open]').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();if(a.id==='fab'&&chat.classList.contains('on'))closeC();else openC()})});
+document.getElementById('cx').onclick=closeC;
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeC()});
+sd.addEventListener('click',function(){setTimeout(closeC,300)});dr.addEventListener('click',function(){setTimeout(closeC,300)});
+/* animated 3D network background */
+var c=document.getElementById('bg'),x=c.getContext('2d'),W,H,N=innerWidth<700?60:120,pts=[],mx=0,my=0,t=0,red=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function rs(){var d=Math.min(devicePixelRatio||1,2);c.width=innerWidth*d;c.height=innerHeight*d;x.setTransform(d,0,0,d,0,0);W=innerWidth;H=innerHeight}
+rs();addEventListener('resize',rs);
+for(var i=0;i<N;i++){var u=Math.random()*2-1,a=Math.random()*6.2832,r=Math.sqrt(1-u*u),k=.62+Math.random()*.5;pts.push([r*Math.cos(a)*k,u*k,r*Math.sin(a)*k])}
+addEventListener('pointermove',function(e){mx=e.clientX/W-.5;my=e.clientY/H-.5});
+function frame(){
+ t+=.0028;var ay=t+mx*.7,ax=Math.sin(t*.6)*.3+my*.5,ca=Math.cos(ay),sa=Math.sin(ay),cx2=Math.cos(ax),sx=Math.sin(ax);
+ var R=Math.min(W,H)*(W<700?.7:.62),cx=W<860?W*.5:W*.7,cy=H*.5;
+ x.clearRect(0,0,W,H);var q=[];
+ for(var i=0;i<N;i++){var p=pts[i],X=p[0]*ca+p[2]*sa,Z=-p[0]*sa+p[2]*ca,Y=p[1]*cx2-Z*sx;Z=p[1]*sx+Z*cx2;var f=2.6/(2.6+Z);q.push([cx+X*R*f,cy+Y*R*f,Z,f,X,Y])}
+ for(i=0;i<N;i++)for(var j=i+1;j<N;j++){var dx=pts[i][0]-pts[j][0],dy=pts[i][1]-pts[j][1],dz=pts[i][2]-pts[j][2],d=dx*dx+dy*dy+dz*dz;
+  if(d<.2){var al=(1-d/.2)*.34*Math.min(q[i][3],q[j][3])*1.4;x.strokeStyle='rgba(135,148,255,'+al.toFixed(3)+')';x.lineWidth=1;x.beginPath();x.moveTo(q[i][0],q[i][1]);x.lineTo(q[j][0],q[j][1]);x.stroke()}}
+ for(i=0;i<N;i++){var e=q[i];x.fillStyle='rgba(76,201,240,'+(.35+.55*(1-(e[2]+1)/2)).toFixed(2)+')';x.beginPath();x.arc(e[0],e[1],1+1.9*e[3]*e[3],0,6.2832);x.fill()}
+ if(!red)requestAnimationFrame(frame)}
+frame();
+if(!red&&'IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.1});document.querySelectorAll('.proj,.sh,.cols>div,.sk>div,.facts').forEach(function(el){el.classList.add('rv');io.observe(el)})}
+})();
+</script>
+</body>
+</html>
